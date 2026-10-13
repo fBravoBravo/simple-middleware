@@ -1,9 +1,2 @@
-import { template } from "./template.js";
-
-export { template };
-
-export const { createConfig } = template;
-
-export * from "./base.js";
-export * from "./blocks/index.js";
-export * from "./presets/index.js";
+export { App } from "./app.js";
+export type { Context, Handler, ErrorHandler, NextFunction } from "./types.js";
